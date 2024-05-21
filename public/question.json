@@ -1,0 +1,41 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "text": "Comment puis-je vous aider ?",
+      "responses": [
+        { "text": "En savoir plus sur nos services", "next": 2 },
+        { "text": "Aide avec un produit", "next": 3 }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Nos services incluent...",
+      "responses": [
+        { "text": "Merci pour l'information !" }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Quel produit nécessite de l'aide ?",
+      "responses": [
+        { "text": "Produit A", "next": 4 },
+        { "text": "Produit B", "next": 5 }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Pour le produit A, vous pouvez...",
+      "responses": [
+        { "text": "Merci pour l'information !" }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Pour le produit B, vous pouvez...",
+      "responses": [
+        { "text": "Merci pour l'information !" }
+      ]
+    }
+  ]
+}
