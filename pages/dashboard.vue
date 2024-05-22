@@ -14,11 +14,27 @@ const items = [
 
 <template>
   <div class="h-full overflow-x-hidden p-6">
-    <h1 class="text-3xl font-bold text-brown mb-4">Fête  tous tes progrès, Léa</h1>
+    <h1 class="text-3xl font-bold text-brown mb-4">Fête tous tes progrès, Léa</h1>
     <div>
       <h3>Ta semaine en un coup d'oeil:</h3>
       <div class="flex flex-wrap gap-4">
         <WeeklyItem v-for="item in items" :item="item" :key="item.day"/>
+      </div>
+    </div>
+    <div>
+      <h3>Reprendre là ou tu en étais</h3>
+      <img src="" alt="">
+    </div>
+    <div>
+      //contentCard
+      <div>
+        <div>
+          <img src="" alt="">
+          <p>type</p>
+        </div>
+        <progress></progress>
+        <p>title</p>
+        <button>Continuer <img src="" alt=""></button>
       </div>
     </div>
   </div>
